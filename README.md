@@ -5,7 +5,7 @@ This project is a Quantitative Finance Framework designed to stress-test the lim
 Imagine you are an equity investor who believes in market efficiency. You typically favor passive strategies, but you’ve wondered: **Can passive exposure be optimized through different regimes rather than just Dollar-Cost-Averaging?** This project is an initial dive into what Beta levels (systematic exposure) a portfolio should hold using 6 factor-based ETFs. We utilize an "Oracle" approach—a hindsight-driven optimization—to establish a performance ceiling for factor rotation.
 
 ## The Strategy
-- **Universe:** IJS (Small Value), QQQ (Growth), XLF (Financials), XLE (Energy), XLV (Health), XLU (Utilities).
+- **Universe:** MSCI USA Index Value, Low Size, Low Volatility, High Yield, Quality, and Momentum.
 - **Benchmark:** SPY (The portfolio is 100% active and cannot hold the benchmark).
 - **Oracle Logic:** Quarterly rebalancing based on the Maximum Sharpe Ratio of the *upcoming* quarter.
 
